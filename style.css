@@ -1,1 +1,6 @@
-body {background-color: black}
+body {
+background-image: url(./assets/assets/bg-mobile.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+}
