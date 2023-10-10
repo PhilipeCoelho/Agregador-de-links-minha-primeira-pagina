@@ -12,10 +12,7 @@ body{
     }
 #container {
     width: 360px;
-    border: 1px solid red;
-    margin: auto;
-    margin: top: 56px
-    
+    margin: 56px auto 0px
 }
 #profile{
     text-align: center;
