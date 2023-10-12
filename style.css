@@ -54,11 +54,13 @@
     -webkit-backdrop-filter: blur(4px); /* Correção aqui */
     text-decoration: none;
     font-weight: 500;
+
+    transition: background .5s;
   }
   
   /* pseudo-seletor */
   ul li a:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
     border: 1.5px solid white;
   }
   
