@@ -84,5 +84,10 @@
   #social-links a:hover {
     background: rgba(255, 255, 255, 0.2);   
     
-  }
+      }
+      footer{
+        padding: 24px 0;
+        text-align: center;
+        fonte-size: 14px;
+      }
 
