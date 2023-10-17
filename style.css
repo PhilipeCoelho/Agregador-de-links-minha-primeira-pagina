@@ -7,8 +7,11 @@
   :root {
     --text-color: white;
     --bg-url: url(./assets/assets/bg-mobile.jpg);
-    --stroker-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.1);
+    -stroker-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highligh-color: rgba(255, 255, 255, 0.2);
+    
     
   }
 
@@ -16,7 +19,9 @@
     --text-color: black;
     --bg-url: url(./assets/assets/bg-mobile-light.jpg);
     --stroker-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(0, 0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highligh-color: rgba(0, 0, 0, 0.1);
   }
   
   body {
@@ -58,12 +63,14 @@
   }
   
   ul li a {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 16px 24px;
+
     background: var(--surface-color);
+    
     border: 1px solid var(--stroker-color);
     border-radius: 8px;
     backdrop-filter: blur(4px); /* Correção aqui */
@@ -76,7 +83,7 @@
   
   /* pseudo-seletor */
   ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
 
   }
@@ -97,7 +104,7 @@
   }
 
   #social-links a:hover {
-    background: rgba(255, 255, 255, 0.2);   
+    background: var(--highligh-color);
     
       }
       footer{
