@@ -37,7 +37,8 @@
     width: 360px;
     margin: 56px auto 0px;
   }
-  
+  /*profile*/
+
   #profile {
     text-align: center;
     padding: 24px;
@@ -52,6 +53,13 @@
     line-height: 24px;
     margin-top: 8px;
   }
+  /*switch */
+  #switch button {
+    width: 32px;
+    
+
+  }
+
   
   /* links */
   ul {
